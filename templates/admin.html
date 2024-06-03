@@ -1,0 +1,29 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administrador</title>
+    <link rel="stylesheet" href="../styles/admin.css">
+  </head>
+  <body>
+    <h1>Panel de Administrador</h1>
+
+    <div class="container">
+      <div class="button-container">
+        <button id="create-user-btn">Crear Nuevo Usuario</button>
+      </div>
+      <div class="button-container">
+        <button id="view-users-btn">Ver Usuarios Registrados</button>
+      </div>
+      <div class="button-container">
+        <button type="button" id="logout-btn">Cerrar Sesion</button>
+      </div>
+
+      <!-- Agrega una lista para mostrar los usuarios -->
+      <ul id="users-list"></ul>
+    </div>
+
+    <script type="module" src="../controllers/admin.js"></script>
+  </body>
+  </html>

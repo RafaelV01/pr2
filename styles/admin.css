@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Encabezado */
+  .container > h1 {
+    text-align: center;
+    margin-top: 40px; /* Aumentar el margen superior */
+    margin-bottom: 20px; /* Agregar margen inferior */
+  }
+  
+  /* Contenedor principal */
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Botones */
+  .button-container {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .button-container button {
+    margin-bottom: 5px; /* Agrega espacio entre los botones */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Lista de usuarios */
+  #users-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #users-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Formulario de edición */
+  .card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .card label {
+    font-weight: bold;
+  }
+  
+  .card input[type="text"],
+  .card input[type="email"] {
+    width: calc(100% - 22px); /* Considerando el padding */
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .card button {
+    width: 100%;
+  }
+  
+  /* Responsividad */
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      margin: 10px;
+    }
+  
+    .button-container {
+      margin-bottom: 5px;
+    }
+  
+    .card {
+      margin-top: 10px;
+      padding: 10px;
+    }
+  }
+  

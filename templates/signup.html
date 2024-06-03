@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <form action="" id="form-container">
+        <h1>Crear Cuenta</h1>
+        <input type="number" class="input" id="user-cc" placeholder="Cedula" required>
+        <input type="text" class="input" id="user-fullname" placeholder="Nombre Completo" required>
+        <input type="text" class="input" id="user-address" placeholder="Dirección" required>
+        <input type="number" class="input" id="user-phone" placeholder="Telefono" required>
+        <input type="date" class="input" id="user-born-date" placeholder="Telefono" required>
+        <input type="email" class="input" id="user-email" placeholder="Correo" required>
+        <input type="password" class="input" id="user-password" placeholder="Contraseña" minlength="8" required>
+        <div id="password-alert" style="color:rgb(91, 0, 0)"></div>
+        <button type="button" class="button bg-black" id="signin-btn">Crear Cuenta</button>
+        <a href="../index.html">Ya tienes Cuenta?</a>
+    </form>
+    <script type="module" src="../controllers/signup.js"></script>
+</body>
+</html>
